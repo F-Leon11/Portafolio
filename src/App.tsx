@@ -6,6 +6,7 @@ import imgreact from "./assets/images/react.svg";
 import imgvite from "./assets/images/vite.svg";
 import imgtys from "./assets/images/typescript.svg";
 import imgjs from "./assets/images/javascript.svg";
+import imgvg from "./assets/images/image.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -175,7 +176,7 @@ function App() {
             {/* Proyecto 1 */}
             <div className={styles.projectCard}>
               <img
-                src="./image.png"
+                src={imgvg}
                 alt="Proyecto E-commerce"
                 className={styles.projectImage}
               />
