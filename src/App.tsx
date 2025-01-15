@@ -1,6 +1,7 @@
 import { Github, Mail, Menu, X, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import styles from "./App.module.css";
+import Contacto from "./Components/Contacto/Contacto";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -110,13 +111,13 @@ function App() {
             {/* Enlaces Sociales */}
             <div className={styles.socialLinks}>
               <a href="https://github.com" className={styles.socialIcon}>
-                <Github size={24} />
+                <Github size={50} />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:jfelipeleon11@gmail.com"
                 className={styles.socialIcon}
               >
-                <Mail size={24} />
+                <Mail size={50} />
               </a>
             </div>
 
@@ -191,26 +192,6 @@ function App() {
             {/* Proyecto 2 */}
             <div className={styles.projectCard}>
               <img
-                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=500"
-                alt="Proyecto Dashboard"
-                className={styles.projectImage}
-              />
-              <div className={styles.projectContent}>
-                <h3 className={styles.projectTitle}>Dashboard Analytics</h3>
-                <p className={styles.projectDescription}>
-                  Dashboard interactivo para visualización de datos
-                  empresariales. Construido con React, TypeScript y D3.js.
-                </p>
-                <a href="#" className={styles.projectLink}>
-                  Ver proyecto{" "}
-                  <ExternalLink size={16} className={styles.linkIcon} />
-                </a>
-              </div>
-            </div>
-
-            {/* Proyecto 3 */}
-            <div className={styles.projectCard}>
-              <img
                 src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=500"
                 alt="Proyecto App Móvil"
                 className={styles.projectImage}
@@ -233,41 +214,9 @@ function App() {
 
       {/* Sección Contacto */}
       <div id="contacto" className={styles.contactSection}>
-        <div className={styles.containerContact}>
-          <h2 className={styles.contactHeading}>Contáctame</h2>
-          <div className={styles.contactFormContainer}>
-            <form className={styles.contactForm}>
-              <div className={styles.formGroup}>
-                <label htmlFor="name" className={styles.formLabel}>
-                  Nombre
-                </label>
-                <input type="text" id="name" className={styles.formInput} />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="email" className={styles.formLabel}>
-                  Email
-                </label>
-                <input type="email" id="email" className={styles.formInput} />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="message" className={styles.formLabel}>
-                  Mensaje
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className={styles.formTextarea}
-                ></textarea>
-              </div>
-              <div>
-                <button type="submit" className={styles.submitButton}>
-                  Enviar mensaje
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <Contacto />
       </div>
+
       {/* Cierre del div con clase minHScreen */}
     </div>
   );
