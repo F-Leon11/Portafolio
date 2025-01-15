@@ -2,7 +2,7 @@ import { Github, Mail, Menu, X, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import styles from "./App.module.css";
 import Contacto from "./Components/Contacto/Contacto";
-import imagereact from "../public/react.svg";
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

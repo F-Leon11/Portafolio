@@ -14,7 +14,7 @@ function Contacto() {
               rel="noopener noreferrer"
               className={styles.link}
             >
-              <img src="" alt="GitHub" className={styles.icon} />
+              <img src="/github.svg" alt="GitHub" className={styles.icon} />
               F-Leon11
             </a>
           </div>
