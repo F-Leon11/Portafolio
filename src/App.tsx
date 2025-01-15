@@ -2,6 +2,10 @@ import { Github, Mail, Menu, X, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import styles from "./App.module.css";
 import Contacto from "./Components/Contacto/Contacto";
+import imgreact from "../src/assets/images/react.svg";
+import imgvite from "../src/assets/images/vite.svg";
+import imgtys from "../src/assets/images/typescript.svg";
+import imgjs from "../src/assets/images/javascript.svg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -127,7 +131,7 @@ function App() {
               <div className={styles.technologiesGrid}>
                 <div className={styles.technologyItem}>
                   <img
-                    src="/react.svg"
+                    src={imgreact}
                     alt="React"
                     className={styles.technologyIcon}
                   />
@@ -135,7 +139,7 @@ function App() {
                 </div>
                 <div className={styles.technologyItem}>
                   <img
-                    src="/vite.svg"
+                    src={imgvite}
                     alt="Vite"
                     className={styles.technologyIcon}
                   />
@@ -143,7 +147,7 @@ function App() {
                 </div>
                 <div className={styles.technologyItem}>
                   <img
-                    src="/typescript.svg"
+                    src={imgtys}
                     alt="TypeScript"
                     className={styles.technologyIcon}
                   />
@@ -151,7 +155,7 @@ function App() {
                 </div>
                 <div className={styles.technologyItem}>
                   <img
-                    src="/javascript.svg"
+                    src={imgjs}
                     alt="JavaeScript"
                     className={styles.technologyIcon}
                   />
