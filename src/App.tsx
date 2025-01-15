@@ -171,16 +171,17 @@ function App() {
             {/* Proyecto 1 */}
             <div className={styles.projectCard}>
               <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=500"
+                src="./image.png"
                 alt="Proyecto E-commerce"
                 className={styles.projectImage}
               />
               <div className={styles.projectContent}>
-                <h3 className={styles.projectTitle}>E-commerce App</h3>
+                <h3 className={styles.projectTitle}>
+                  Tienda Virtual de Video juegos
+                </h3>
                 <p className={styles.projectDescription}>
-                  Plataforma de comercio electrónico desarrollada con React y
-                  Node.js. Incluye carrito de compras, pagos y panel de
-                  administración.
+                  Plataforma de video juegos desarrollada con React y Node.js.
+                  Incluye carrito de compras, pagos y panel de administración.
                 </p>
                 <a href="#" className={styles.projectLink}>
                   Ver proyecto{" "}
@@ -197,10 +198,10 @@ function App() {
                 className={styles.projectImage}
               />
               <div className={styles.projectContent}>
-                <h3 className={styles.projectTitle}>App de Productividad</h3>
+                <h3 className={styles.projectTitle}>App de Salud</h3>
                 <p className={styles.projectDescription}>
-                  Aplicación móvil para gestión de tareas y productividad
-                  personal. Desarrollada con React Native.
+                  Aplicación móvil para gestión de pausas activas y
+                  productividad personal. Desarrollada con React Native.
                 </p>
                 <a href="#" className={styles.projectLink}>
                   Ver proyecto{" "}
