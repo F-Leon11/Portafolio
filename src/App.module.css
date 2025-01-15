@@ -1,0 +1,109 @@
+.app {
+  margin-bottom: 20px;
+  height: 100vh; /* Se asegura de ocupar toda la altura */
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Asegura que el body ocupe toda la ventana */
+  margin: 0;
+}
+
+.minHScreen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+  overflow-y: auto; /* Asegura que el contenido se pueda desplazar si es necesario */
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 180px;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.brandText {
+  color: white;
+  padding: 25px;
+  font-size: 26px; /* Usamos unidades relativas para el tamaño */
+  font-weight: 800;
+  text-align: center;
+}
+
+.navButton {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+}
+
+.profileImage {
+  border-radius: 25px;
+  max-width: 20vw; /* Asegura que la imagen no se haga demasiado grande */
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.heading {
+  font-size: 35px; /* Título con tamaño relativo */
+  font-weight: bold;
+  text-align: center;
+}
+.description {
+  font-size: 21px; /* Título con tamaño relativo */
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.socialLinks {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionInicio {
+  flex: 1;
+  padding: 20px;
+}
+
+.technologiesGrid {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.technologyIcon {
+  display: flex;
+  text-align: center;
+  max-width: 55vw; /* Usa un ancho relativo */
+  height: 80px; /* Mantén la proporción */
+  margin-bottom: 10px;
+}
+
+.technologiesHeading {
+  font-size: 35px; /* Título con tamaño relativo */
+  font-weight: bold;
+  text-align: center;
+}
+
+.technologyName {
+  font-size: 25px; /* Ajusta según el espacio disponible */
+  font-weight: bolder;
+  margin-left: 0; /* Ajuste para centrar el texto */
+  text-align: center;
+}
