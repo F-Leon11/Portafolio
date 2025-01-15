@@ -2,10 +2,10 @@ import { Github, Mail, Menu, X, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import styles from "./App.module.css";
 import Contacto from "./Components/Contacto/Contacto";
-import imgreact from "../src/assets/images/react.svg";
-import imgvite from "../src/assets/images/vite.svg";
-import imgtys from "../src/assets/images/typescript.svg";
-import imgjs from "../src/assets/images/javascript.svg";
+import imgreact from "./assets/images/react.svg";
+import imgvite from "./assets/images/vite.svg";
+import imgtys from "./assets/images/typescript.svg";
+import imgjs from "./assets/images/javascript.svg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
