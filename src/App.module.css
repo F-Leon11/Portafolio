@@ -1,0 +1,278 @@
+body {
+  background-color: antiquewhite;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Asegura que el body ocupe toda la ventana */
+  margin: 0;
+}
+/* Estilos generales */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.minHScreen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barra de Navegación */
+.navbar {
+  background-color: #282c34;
+  padding: 1rem 0;
+  position: fixed; /* Fija la barra de navegación en la parte superior */
+  top: 0; /* Asegura que se quede en la parte superior */
+  left: 0; /* Asegura que se quede en el borde izquierdo */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.brandText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+}
+
+.navButton,
+.mobileNavButton {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.mobileMenuButtonContainer {
+  display: none; /* Cambia según el diseño responsivo */
+}
+
+.mobileNav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileNavButton {
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+
+.mainContent {
+  margin-left: 250px; /* Da espacio al contenido para que no quede oculto */
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+/* Sección Inicio */
+.sectionInicio {
+  background-color: #f5f5f5;
+  padding: 4rem 0;
+}
+
+.profileImage {
+  top: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #333333;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socialIcon {
+  color: #333333;
+  font-size: 1.5rem;
+}
+
+/* Sección Tecnologías */
+/* Sección Tecnologías */
+.technologiesSection {
+  margin-top: 4rem;
+}
+
+.technologiesHeading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.technologiesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.technologyItem {
+  text-align: center;
+  padding: 2rem;
+}
+
+.technologyIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem; /* Remove padding */
+  display: flex; /* Add flexbox for centering */
+  justify-content: center; /* Center icon horizontally */
+  align-items: center; /* Center icon vertically */
+}
+
+.technologyName {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Sección Proyectos */
+.projectsSection {
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.projectsHeading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projectsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.projectCard {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.projectImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.projectContent {
+  padding: 1rem;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.linkIcon {
+  margin-left: 0.5rem;
+}
+
+/* Sección Contacto */
+.contactSection {
+  background-color: #f5f5f5;
+  padding: 4rem 0;
+}
+
+.contactHeading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contactFormContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 500px;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.formInput,
+.formTextarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.formTextarea {
+  resize: vertical;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
