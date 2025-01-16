@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: #faebd7;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -92,9 +92,9 @@ body {
 
 .profileImage {
   top: auto;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  border-radius: 20%;
+  width: 300px;
+  height: 300px;
   margin-bottom: 1rem;
 }
 
@@ -104,18 +104,25 @@ body {
 }
 
 .description {
-  font-size: 1.2rem;
-  color: #666666;
-  margin-bottom: 2rem;
+  max-width: 900px; /* Ancho máximo para la legibilidad */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Espaciado interno */
+  background-color: #f5f0e8; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  font-family: "Arial", sans-serif; /* Fuente moderna y legible */
+  text-align: justify; /* Centra el texto */
+  font-size: 22px;
 }
 
 .socialLinks {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .socialIcon {
+  margin-top: 10px;
   color: #333333;
   font-size: 1.5rem;
 }

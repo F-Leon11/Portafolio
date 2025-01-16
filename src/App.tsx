@@ -96,21 +96,22 @@ function App() {
         <div className={styles.container}>
           <div className={styles.textCenter}>
             <img
-              src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=200&h=200"
+              src="https://i.pinimg.com/736x/77/4d/97/774d97e93a959378edd02b076cd53836.jpg"
               alt="Profile"
               className={styles.profileImage}
             />
-            <h1 className={styles.heading}>¡Hola! Soy Desarrollador Web</h1>
+            <h1 className={styles.heading}>¡Hola! Somos Desarrolladores Web</h1>
             <p className={styles.description}>
-              Especializado en crear experiencias web modernas y atractivas
-              utilizando las últimas tecnologías. Apasionado por el desarrollo
-              frontend y la creación de interfaces intuitivas. Especializado en
-              crear experiencias web modernas y atractivas utilizando las
-              últimas tecnologías. Apasionado por el desarrollo frontend y la
-              creación de interfaces intuitivas. Especializado en crear
-              experiencias web modernas y atractivas utilizando las últimas
-              tecnologías. Apasionado por el desarrollo frontend y la creación
-              de interfaces intuitivas.
+              Somos un equipo de desarrolladores comprometidos con crear páginas
+              web que se adapten exactamente a lo que nuestros clientes
+              necesitan, nuestro objetivo es diseñar experiencias únicas,
+              funcionales y estéticamente atractivas, garantizando que cada
+              detalle refleje las ideas y objetivos del usuario. Como
+              practicantes, nos especializamos en crear páginas web a medida,
+              centradas en los deseos y objetivos de cada cliente, utilizamos
+              herramientas modernas como React, Vite, TypeScript y JavaScript
+              para desarrollar soluciones innovadoras que combinen un diseño
+              único con una experiencia de usuario impecable.
             </p>
 
             {/* Enlaces Sociales */}
@@ -186,7 +187,7 @@ function App() {
                 </h3>
                 <p className={styles.projectDescription}>
                   Plataforma de video juegos desarrollada con React y Node.js.
-                  Incluye carrito de compras, pagos y panel de administración.
+                  Incluye carrito de compras y panel de administración.
                 </p>
                 <a
                   href="https://f-leon11.github.io/Tvgames/"
