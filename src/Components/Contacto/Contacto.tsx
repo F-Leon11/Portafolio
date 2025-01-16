@@ -24,19 +24,19 @@ function Contacto() {
           <div className={styles.contactItem}>
             <a href="mailto:jfelipeleon11@gmail.com" className={styles.link}>
               <img src={imgemail} alt="Email" className={styles.icon} />
-              jfelipeleon11@gmail.com
+              gabyvaleng04@gmail.com
             </a>
           </div>
           {/* WhatsApp */}
           <div className={styles.contactItem}>
             <a
-              href="https://wa.me/3202238919"
+              href="https://wa.me/3124576628"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.link}
             >
               <img src={imgwhats} alt="WhatsApp" className={styles.icon} />
-              +57 3202238919
+              +57 3124576628
             </a>
           </div>
         </div>
