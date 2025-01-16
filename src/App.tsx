@@ -188,7 +188,10 @@ function App() {
                   Plataforma de video juegos desarrollada con React y Node.js.
                   Incluye carrito de compras, pagos y panel de administración.
                 </p>
-                <a href="#" className={styles.projectLink}>
+                <a
+                  href="https://f-leon11.github.io/Tvgames/"
+                  className={styles.projectLink}
+                >
                   Ver proyecto{" "}
                   <ExternalLink size={16} className={styles.linkIcon} />
                 </a>
