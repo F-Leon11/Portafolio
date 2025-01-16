@@ -191,6 +191,7 @@ function App() {
                 <a
                   href="https://f-leon11.github.io/Tvgames/"
                   className={styles.projectLink}
+                  target="blank"
                 >
                   Ver proyecto{" "}
                   <ExternalLink size={16} className={styles.linkIcon} />
@@ -209,9 +210,16 @@ function App() {
                 <h3 className={styles.projectTitle}>App de Salud</h3>
                 <p className={styles.projectDescription}>
                   Aplicación móvil para gestión de pausas activas y
-                  productividad personal. Desarrollada con React Native.
+                  productividad personal desarrollada con React Native. (Dentro
+                  del repositorio hay un documento .PDF en donde se podra ver la
+                  interfaz de la app)
                 </p>
-                <a href="#" className={styles.projectLink}>
+
+                <a
+                  href="https://github.com/F-Leon11/Healthly-GYF"
+                  className={styles.projectLink}
+                  target="blank"
+                >
                   Ver proyecto{" "}
                   <ExternalLink size={16} className={styles.linkIcon} />
                 </a>
