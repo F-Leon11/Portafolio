@@ -111,7 +111,7 @@ function App() {
               centradas en los deseos y objetivos de cada cliente, utilizamos
               herramientas modernas como React, Vite, TypeScript y JavaScript
               para desarrollar soluciones innovadoras que combinen un diseño
-              único con una experiencia de usuario impecable.
+              único con una experiencia de usuario impecable.
             </p>
 
             {/* Enlaces Sociales */}
