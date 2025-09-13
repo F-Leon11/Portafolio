@@ -7,6 +7,7 @@ import imgvite from "./assets/images/vite.svg";
 import imgtys from "./assets/images/typescript.svg";
 import imgjs from "./assets/images/javascript.svg";
 import imgvg from "./assets/images/image.png";
+import perfil from "./assets/images/IMG_20220710_152353 (3).jpg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -95,12 +96,8 @@ function App() {
       <div id="inicio" className={styles.sectionInicio}>
         <div className={styles.container}>
           <div className={styles.textCenter}>
-            <img
-              src="https://i.pinimg.com/736x/77/4d/97/774d97e93a959378edd02b076cd53836.jpg"
-              alt="Profile"
-              className={styles.profileImage}
-            />
-            <h1 className={styles.heading}>¡Hola! Somos Desarrolladores Web</h1>
+            <img src={perfil} alt="Profile" className={styles.profileImage} />
+            <h1 className={styles.heading}>¡Hola! Mi nombre es Juan Leon</h1>
             <p className={styles.description}>
               Somos un equipo de desarrolladores comprometidos con crear páginas
               web que se adapten exactamente a lo que nuestros clientes
@@ -214,6 +211,33 @@ function App() {
                   productividad personal desarrollada con React Native. (Dentro
                   del repositorio hay un documento .PDF en donde se podra ver la
                   interfaz de la app)
+                </p>
+
+                <a
+                  href="https://github.com/F-Leon11/Healthly-GYF"
+                  className={styles.projectLink}
+                  target="blank"
+                >
+                  Ver proyecto{" "}
+                  <ExternalLink size={16} className={styles.linkIcon} />
+                </a>
+              </div>
+            </div>
+            {/* Proyecto 3 */}
+            <div className={styles.projectCard}>
+              <img
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=500"
+                alt="Proyecto App Móvil"
+                className={styles.projectImage}
+              />
+              <div className={styles.projectContent}>
+                <h3 className={styles.projectTitle}>Lista de tareas</h3>
+                <p className={styles.projectDescription}>
+                  Este proyecto consiste en una aplicación de lista de tareas
+                  donde el usuario puede agregar nuevas actividades, marcarlas
+                  como completadas y eliminarlas cuando ya no sean necesarias.
+                  Además, las tareas se guardan en el navegador para que no se
+                  pierdan al recargar la página.
                 </p>
 
                 <a
