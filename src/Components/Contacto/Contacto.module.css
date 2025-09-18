@@ -1,40 +1,41 @@
 .container {
   text-align: center;
-  padding: 2rem;
+  align-items: center;
 }
 
 .title {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
   color: #333;
+  margin-bottom: 2rem; /* Añadido para separación */
 }
 
 .contactList {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
+  justify-content: center; /* Centra horizontalmente los elementos */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+  gap: 2rem; /* Espacio entre los elementos */
 }
 
 .contactItem {
   display: flex;
-  align-items: center; /* Centra verticalmente */
-  justify-content: center; /* Centra horizontalmente */
-  gap: 1rem;
+  /* gap: 20px; Eliminado - ahora se controla desde .contactList */
 }
 
 .link {
   display: flex;
-  align-items: center; /* Asegura que la imagen y el texto estén alineados */
-  gap: 1rem;
+  align-items: center;
+  flex-direction: column; /* Cambiado a columna para apilar icono y texto */
+  gap: 0.5rem; /* Espacio entre icono y texto */
   text-decoration: none;
-  color: #007bff;
+  color: #8e2ee7;
   font-size: 1.2rem;
   transition: color 0.3s ease;
+  padding: 20px; /* Añadido para mejor espaciado */
 }
 
 .link:hover {
   color: #0056b3;
+  transform: translateY(-5px); /* Efecto adicional al hacer hover */
 }
 
 .icon {

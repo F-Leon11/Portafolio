@@ -184,10 +184,11 @@ function App() {
                 </h3>
                 <p className={styles.projectDescription}>
                   Plataforma de video juegos desarrollada con React y Node.js.
-                  Incluye carrito de compras y panel de administración.
+                  Incluye carrito de compras interactivo con apartados de login
+                  y registro.
                 </p>
                 <a
-                  href="https://f-leon11.github.io/Tvgames/"
+                  href="https://f-leon11.github.io/DFG-games/"
                   className={styles.projectLink}
                   target="blank"
                 >
@@ -205,43 +206,16 @@ function App() {
                 className={styles.projectImage}
               />
               <div className={styles.projectContent}>
-                <h3 className={styles.projectTitle}>App de Salud</h3>
-                <p className={styles.projectDescription}>
-                  Aplicación móvil para gestión de pausas activas y
-                  productividad personal desarrollada con React Native. (Dentro
-                  del repositorio hay un documento .PDF en donde se podra ver la
-                  interfaz de la app)
-                </p>
-
-                <a
-                  href="https://github.com/F-Leon11/Healthly-GYF"
-                  className={styles.projectLink}
-                  target="blank"
-                >
-                  Ver proyecto{" "}
-                  <ExternalLink size={16} className={styles.linkIcon} />
-                </a>
-              </div>
-            </div>
-            {/* Proyecto 3 */}
-            <div className={styles.projectCard}>
-              <img
-                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=500"
-                alt="Proyecto App Móvil"
-                className={styles.projectImage}
-              />
-              <div className={styles.projectContent}>
                 <h3 className={styles.projectTitle}>Lista de tareas</h3>
                 <p className={styles.projectDescription}>
-                  Este proyecto consiste en una aplicación de lista de tareas
-                  donde el usuario puede agregar nuevas actividades, marcarlas
-                  como completadas y eliminarlas cuando ya no sean necesarias.
-                  Además, las tareas se guardan en el navegador para que no se
-                  pierdan al recargar la página.
+                  Lista de taraeas que cuenta con Frontend y backend, permite
+                  agregar eliminar y marcar como completada la tarea desde este
+                  apartado solo se podra ver el Frontend el proyecto completo de
+                  backend se puede ejecutar local por el momento
                 </p>
 
                 <a
-                  href="https://github.com/F-Leon11/Healthly-GYF"
+                  href="https://f-leon11.github.io/login.html"
                   className={styles.projectLink}
                   target="blank"
                 >
