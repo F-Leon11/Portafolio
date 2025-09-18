@@ -1,44 +1,84 @@
-.container {
-  text-align: center;
-  align-items: center;
+/* Sección de contacto */
+.contactSection {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+/* Título de la sección */
 .title {
   font-size: 2rem;
-  color: #333;
-  margin-bottom: 2rem; /* Añadido para separación */
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  background: linear-gradient(135deg, #5b21b6 0%, #1e40af 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
+/* Lista de contactos */
 .contactList {
   display: flex;
-  justify-content: center; /* Centra horizontalmente los elementos */
-  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
-  gap: 2rem; /* Espacio entre los elementos */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
+/* Cada item de contacto */
 .contactItem {
-  display: flex;
-  /* gap: 20px; Eliminado - ahora se controla desde .contactList */
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(91, 33, 182, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid #ddd6fe;
 }
 
+.contactItem:hover {
+  transform: translateY(-5px);
+}
+
+/* Enlaces de contacto */
 .link {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  flex-direction: column; /* Cambiado a columna para apilar icono y texto */
-  gap: 0.5rem; /* Espacio entre icono y texto */
   text-decoration: none;
-  color: #8e2ee7;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-  padding: 20px; /* Añadido para mejor espaciado */
+  color: #5b21b6;
+  font-weight: 500;
+  font-size: 1rem;
+  gap: 0.8rem;
 }
 
 .link:hover {
-  color: #0056b3;
-  transform: translateY(-5px); /* Efecto adicional al hacer hover */
+  color: #1e40af;
 }
 
+/* Iconos de contacto */
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .contactList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactItem {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
 }
