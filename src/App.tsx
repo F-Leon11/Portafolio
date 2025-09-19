@@ -220,7 +220,7 @@ function App() {
             <div className={styles.projectCard}>
               <img
                 src={imglist}
-                alt="Proyecto App Móvil"
+                alt="Lista de tareas"
                 className={styles.projectImage}
               />
               <div className={styles.projectContent}>
