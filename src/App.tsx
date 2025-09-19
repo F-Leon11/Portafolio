@@ -7,7 +7,10 @@ import imgvite from "./assets/images/vite.svg";
 import imgtys from "./assets/images/typescript.svg";
 import imgjs from "./assets/images/javascript.svg";
 import imgvg from "./assets/images/image.png";
+import imgpht from "./assets/images/icons8-python.svg";
+import imgrh from "./assets/images/4375058_logo_redhat_icon.svg";
 import perfil from "./assets/images/IMG_20220710_152353 (3).jpg";
+import imglist from "./assets/images/image2.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,16 +100,17 @@ function App() {
         <div className={styles.container}>
           <div className={styles.textCenter}>
             <img src={perfil} alt="Profile" className={styles.profileImage} />
-            <h1 className={styles.heading}>¡Hola! Mi nombre es Juan Leon</h1>
+            <h1 className={styles.heading}>¡Hola! Mi nombre es Felipe Leon</h1>
             <p className={styles.description}>
-              Soy Felipe, apasionado por la tecnología y el desarrollo web,
-              trabajo principalmente con React y Node.js para dar vida a
-              proyectos digitales que sean funcionales, prácticos y pensados
-              para el usuario, también cuento con conocimientos básicos en SAP y
-              bases de datos lo que me brinda una base para entender su uso en
-              entornos empresariales. Me encanta aprender, adaptarme a nuevos
-              retos y seguir evolucionando como desarrollador para crear
-              soluciones innovadoras
+              Apasionado por la tecnología y el desarrollo web. Trabajo
+              principalmente con React y Node.js para dar vida a proyectos
+              digitales que sean funcionales, prácticos y pensados para el
+              usuario. También cuento con conocimientos básicos en SAP, bases de
+              datos, Python y Red Hat, lo que me brinda una base para entender
+              su uso en entornos empresariales y ampliar mis capacidades
+              técnicas. Me encanta aprender, adaptarme a nuevos retos y seguir
+              evolucionando como desarrollador para crear soluciones
+              innovadoras.
             </p>
 
             {/* Enlaces Sociales */}
@@ -153,10 +157,26 @@ function App() {
                 <div className={styles.technologyItem}>
                   <img
                     src={imgjs}
-                    alt="JavaeScript"
+                    alt="JavaScript"
                     className={styles.technologyIcon}
                   />
                   <span className={styles.technologyName}>JavaScript</span>
+                </div>
+                <div className={styles.technologyItem}>
+                  <img
+                    src={imgpht}
+                    alt="JavaeScript"
+                    className={styles.technologyIcon}
+                  />
+                  <span className={styles.technologyName}>Python</span>
+                </div>
+                <div className={styles.technologyItem}>
+                  <img
+                    src={imgrh}
+                    alt="RedHat"
+                    className={styles.technologyIcon}
+                  />
+                  <span className={styles.technologyName}>Red Hat</span>
                 </div>
               </div>
             </div>
@@ -173,7 +193,7 @@ function App() {
             <div className={styles.projectCard}>
               <img
                 src={imgvg}
-                alt="Proyecto E-commerce"
+                alt="Proyecto Tienda-Videojuegos"
                 className={styles.projectImage}
               />
               <div className={styles.projectContent}>
@@ -199,7 +219,7 @@ function App() {
             {/* Proyecto 2 */}
             <div className={styles.projectCard}>
               <img
-                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=500"
+                src={imglist}
                 alt="Proyecto App Móvil"
                 className={styles.projectImage}
               />
