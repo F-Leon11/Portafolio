@@ -99,16 +99,14 @@ function App() {
             <img src={perfil} alt="Profile" className={styles.profileImage} />
             <h1 className={styles.heading}>¡Hola! Mi nombre es Juan Leon</h1>
             <p className={styles.description}>
-              Somos un equipo de desarrolladores comprometidos con crear páginas
-              web que se adapten exactamente a lo que nuestros clientes
-              necesitan, nuestro objetivo es diseñar experiencias únicas,
-              funcionales y estéticamente atractivas, garantizando que cada
-              detalle refleje las ideas y objetivos del usuario. Como
-              practicantes, nos especializamos en crear páginas web a medida,
-              centradas en los deseos y objetivos de cada cliente, utilizamos
-              herramientas modernas como React, Vite, TypeScript y JavaScript
-              para desarrollar soluciones innovadoras que combinen un diseño
-              único con una experiencia de usuario impecable.
+              Soy Felipe, apasionado por la tecnología y el desarrollo web,
+              trabajo principalmente con React y Node.js para dar vida a
+              proyectos digitales que sean funcionales, prácticos y pensados
+              para el usuario, también cuento con conocimientos básicos en SAP y
+              bases de datos lo que me brinda una base para entender su uso en
+              entornos empresariales. Me encanta aprender, adaptarme a nuevos
+              retos y seguir evolucionando como desarrollador para crear
+              soluciones innovadoras
             </p>
 
             {/* Enlaces Sociales */}
