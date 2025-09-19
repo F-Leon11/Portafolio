@@ -233,7 +233,7 @@ function App() {
                 </p>
 
                 <a
-                  href="https://f-leon11.github.io/login.html"
+                  href="https://f-leon11.github.io/8.-Lista-de-Tareas-F/"
                   className={styles.projectLink}
                   target="blank"
                 >
